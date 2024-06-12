@@ -1,0 +1,75 @@
+.test__data_content {
+  display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
+}
+
+.test__data_content__card_imgs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.test__data_content__card:hover {
+  background-color: #3F3B6C;
+}
+
+.test__data_content__card {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+  color: #FFFFFF;
+  background-color: #3f3b6c9c;
+  border-radius: 50px;
+
+  transition: all .3s;
+}
+
+.form__title {
+  font-size: 3em;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 1rem;
+}
+
+.form__inputs {
+  display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
+}
+
+.form__link {
+  padding: 1rem;
+  color: #FFFFFF;
+
+  text-align: center;
+
+  border-radius: 50px;
+  background-color: #3F3B6C;
+}
+
+.form__input {
+  padding: 1rem;
+  border: 1px solid #3F3B6C;
+  border-radius: 50px;
+  background-color: #ffffff94;
+}
+
+@media screen and (min-width: 1000px) {
+  .test__container {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+  }
+  .test__data {
+    width: 600px;
+  }
+}
